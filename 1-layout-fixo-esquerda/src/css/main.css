@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    /* background: url(../imgs/back6.jpg) no-repeat;
+    background-size: cover; */
+}
+
+.container {
+    display: grid;
+    max-width: 940px;
+    grid-template-rows: 100px auto auto;
+    grid-template-columns: 300px 640px;
+}
+
+.cabecalho { 
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+}
+
+.navbar {
+    grid-area: navbar;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.conteudo {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.rodape {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 2;
+}

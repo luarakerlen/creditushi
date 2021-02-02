@@ -1,0 +1,56 @@
+:root {
+    --verdeClaro: #ace6cf;
+    --verdeMedio: #11bb77;
+    --verdeEscuro: #062406;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: grid;
+    grid-template-columns: 300px 640px;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--verdeEscuro);
+}
+
+.cabecalho__logo {
+    width: 150px;
+    grid-column: 1 / span 1;
+}
+
+.cabecalho__titulo {
+    font-family: 'Potta One', cursive;
+    font-size: 60px;
+    grid-column: 2 / span 1;
+    color: var(--verdeClaro);
+}
+
+/* Menu de navegação */
+.navbar {
+    background-color: var(--verdeEscuro);
+    width: 100%;
+}
+
+.navbar li {
+    padding: 30px 30px;
+}
+
+.navbar li:hover {
+    background-color: var(--verdeMedio);
+    transition-duration: .5s;
+}
+
+.navbar li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: var(--verdeEscuro);
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
