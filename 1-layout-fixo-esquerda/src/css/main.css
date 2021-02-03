@@ -13,8 +13,6 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 500;
     background-color: var(--red);
-    /* background: url(../imgs/back6.jpg) no-repeat;
-    background-size: cover; */
 }
 
 a {

@@ -17,6 +17,7 @@
     margin-bottom: 0;
     color: var(--black);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .who__description {
@@ -82,6 +83,8 @@
     font-weight: bold;
     font-size: 25px;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .who__cards__card__description {
