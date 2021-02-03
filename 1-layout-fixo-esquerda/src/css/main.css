@@ -1,7 +1,20 @@
+:root {
+    --red: #D90404;
+}
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     color: white;
+}
+
+body {
+    padding: 1rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 500;
+    background-color: var(--red);
+    /* background: url(../imgs/back6.jpg) no-repeat;
+    background-size: cover; */
 }
 
 a {
@@ -12,22 +25,14 @@ li {
     list-style: none;
 }
 
-body {
-    padding: 1rem;
-    font-family: 'Roboto', sans-serif;
-    background-color: #fff;
-    /* background: url(../imgs/back6.jpg) no-repeat;
-    background-size: cover; */
-}
-
 .container {
     display: grid;
-    max-width: 940px;
+    max-width: 900px;
     grid-template-rows: 100px auto auto;
-    grid-template-columns: 300px 640px;
+    grid-template-columns: 250px 650px;
 }
 
-.cabecalho { 
+.header { 
     grid-row: 1 / span 1;
     grid-column: 1 / span 2;
 }
@@ -38,12 +43,12 @@ body {
     grid-column: 1 / span 1;
 }
 
-.conteudo {
+.content {
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
 }
 
-.rodape {
+.footer {
     grid-row: 3 / span 1;
     grid-column: 1 / span 2;
 }
