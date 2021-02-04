@@ -1,6 +1,4 @@
-:root {
-    --red: #D90404;
-}
+:root { --red: #D90404; }
 
 * {
     margin: 0px;
@@ -15,13 +13,9 @@ body {
     background-color: var(--red);
 }
 
-a {
-    text-decoration: none;
-}
+a { text-decoration: none; }
 
-li {
-    list-style: none;
-}
+li { list-style: none; }
 
 .container {
     display: grid;
@@ -36,7 +30,6 @@ li {
 }
 
 .navbar {
-    grid-area: navbar;
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
 }

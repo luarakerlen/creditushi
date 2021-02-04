@@ -1,9 +1,6 @@
 :root {
     --black: #0D0D0D;
     --red: #D90404;
-    --yellow: #F29F05;
-    --orange: #D97236;
-    --green: #93A603;
 }
 
 /* Cabeçalho */
@@ -27,7 +24,6 @@
     font-size: 50px;
     grid-column: 2 / span 1;
     color: #fff;
-    /* text-transform: uppercase; */
     justify-self: end;
     margin-right: 30px;
 }
@@ -38,9 +34,7 @@
     width: 100%;
 }
 
-.navbar li {
-    padding: 20px 30px;
-}
+.navbar li { padding: 20px 30px; }
 
 .navbar li:hover, .active {
     background-color: #fff;
@@ -95,7 +89,6 @@
 
 .cards__card__name, .cards__card__description, .cards__card__price {
     margin: 10px;
-    text-align: justify;
     color: #fff;
 }
 
@@ -128,6 +121,6 @@
 
 .cards__card__price {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
