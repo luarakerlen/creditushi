@@ -28,6 +28,8 @@
     margin-right: 30px;
 }
 
+.header__red { color: var(--red); }
+
 /* Menu de navegação */
 .navbar {
     background-color: var(--black);;

@@ -43,12 +43,14 @@
     text-transform: uppercase;
 }
 
-.contact__main ul li {
+.contact__main ul li, .contact__main__bold {
     color: var(--black);
     font-size: 16px;
     margin-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.contact__main__bold { font-weight: bold; }
 
 /* Mapa */
 .contact__main__map {
