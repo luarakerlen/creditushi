@@ -30,7 +30,7 @@
 .header__title {
     grid-column: 2 / span 1;
     color: #fff;
-    justify-self: end;
+    justify-self: center;
     margin-right: 5%;
 }
 
@@ -130,6 +130,6 @@
 
 .cards__card__price {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }

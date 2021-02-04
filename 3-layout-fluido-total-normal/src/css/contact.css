@@ -38,16 +38,20 @@
 }
 
 .contact__main__title {
-    font-size: 50px;
+    font-size: 55px;
     color: var(--black);
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;
 }
 
+.contact__main ul {
+    align-self: flex-start;
+}
+
 .contact__main ul li {
     color: var(--black);
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
