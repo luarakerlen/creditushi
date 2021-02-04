@@ -1,9 +1,6 @@
 :root {
     --black: #0D0D0D;
     --red: #D90404;
-    --yellow: #F29F05;
-    --orange: #D97236;
-    --green: #93A603;
 }
 .who {
     background-color: #fff;
@@ -34,9 +31,7 @@
     display: flex;
     align-items: center;
 }
-.who__image {
-    height: 150px;
-}
+.who__image { height: 150px; }
 
 .who__image1, .who__image4 {
     margin: 0 10px;
@@ -47,7 +42,6 @@
     margin: 0 10px;
     flex-grow: 1;
 }
-
 
 /* Cards */
 .who__cards {

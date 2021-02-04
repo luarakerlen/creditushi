@@ -43,12 +43,14 @@
     text-transform: uppercase;
 }
 
-.contact__main ul li {
+.contact__main ul li, .contact__main__bold {
     color: var(--black);
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.contact__main__bold { font-weight: bold; }
 
 /* Mapa */
 .contact__main__map {
@@ -65,13 +67,14 @@
 }
 
 /* Formulário */
-.content__form {
+.contact__form {
     font-size: 40px;
     color: var(--black);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
 }
 
 .content__form__title {
@@ -81,7 +84,7 @@
     text-transform: uppercase;
 }
 
-.content__form__name, .content__form__email, .content__form__message {
+.contact__form__name, .contact__form__email, .contact__form__message {
     display: grid;
     place-items: center;
 
@@ -91,11 +94,9 @@
     margin-bottom: 30px;
 }
 
-.content__form__message {
-    height: 70px;
-}
+.contact__form__message {  height: 70px; }
 
-.content__form input, .content__form textarea {
+.contact__form input, .contact__form textarea {
     border: 1px solid var(--black);
     width: 200px;
     height: 40px;
@@ -107,12 +108,12 @@
     color: var(--black);
 }
 
-.content__form textarea {
+.contact__form textarea {
     height: 80px;
     padding: 16px 16px;
 }
 
-.content__form label {
+.contact__form label {
     color: var(--black);
     z-index: 10;
     position: absolute;
@@ -125,28 +126,26 @@
     transition: .2s;
 }
 
-.content__form textarea + label {
-    font-size: 18px;
-}
+.contact__form textarea + label { font-size: 18px; }
 
-.content__form input:focus,
-.content__form textarea:focus,
-.content__form input:valid,
-.content__form textarea:valid {
+.contact__form input:focus,
+.contact__form textarea:focus,
+.contact__form input:valid,
+.contact__form textarea:valid {
     border: 1px solid var(--red);
 }
 
-.content__form input:focus + label,
-.content__form textarea:focus + label,
-.content__form input:valid + label,
-.content__form textarea:valid + label {
+.contact__form input:focus + label,
+.contact__form textarea:focus + label,
+.contact__form input:valid + label,
+.contact__form textarea:valid + label {
     top: -18px;
     font-size: 15px;
     color: var(--red);
 }
 
 /* Botão */
-.content__form__button {
+.contact__form__button {
     cursor: pointer;
     border: none;
     width: 200px;
@@ -161,7 +160,7 @@
     font-size: 25px;
 }
 
-.content__form__button:hover {
+.contact__form__button:hover {
     background-color: var(--red);
     transition: .5s;
 }

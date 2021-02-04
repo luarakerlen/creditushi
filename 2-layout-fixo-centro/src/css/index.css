@@ -1,9 +1,6 @@
 :root {
     --black: #0D0D0D;
     --red: #D90404;
-    --yellow: #F29F05;
-    --orange: #D97236;
-    --green: #93A603;
 }
 
 /* Principal */
@@ -38,6 +35,8 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.home__main__title__large { font-size: 60px; }
 
 /* Destaques */
 .home__featured {
