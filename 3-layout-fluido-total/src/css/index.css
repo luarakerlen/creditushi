@@ -13,12 +13,6 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
-
-    /* display: grid;
-    grid-template-rows: auto auto;
-    align-items: center;
-    justify-items: center;
-    justify-content: center; */
 }
 
 .home__main {
@@ -26,7 +20,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 85vh;
+    /* height: 85vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,15 +59,15 @@
 }
 
 /* Cards */
-.cards__card {
-    width: 300px;
+.cards__card-home {
+    /* width: 300px; */
     height: 430px;
 }
 
-.cards__card__image {
+.cards__card__image-home {
     height: 50%;
 }
 
-.cards__card__description {
+.cards__card__description-home {
     height: 30%;
 }
