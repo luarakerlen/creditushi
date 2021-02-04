@@ -1,0 +1,117 @@
+:root {
+    --black: #0D0D0D;
+    --red: #D90404;
+}
+.who {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.who__title {
+    /* font-size: 55px; */
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0;
+    color: var(--black);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.who__description {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 15px; */
+    margin: 20px;
+    margin-bottom: 0;
+    color: var(--black);
+    text-align: justify;
+}
+
+.who__images {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.who__image {
+    /* height: 250px; */
+    max-width: 100%;
+}
+
+.who__image1, .who__image4 {
+    margin: 10px;
+    flex-grow: 2;
+}
+
+.who__image2, .who__image3 {
+    margin: 0 10px;
+    flex-grow: 1;
+}
+
+
+/* Cards */
+.who__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: calc(100% - 40px);
+    gap: 10px;
+}
+
+/* .who__cards__card {
+    display: flex;
+    border-radius: 5px;
+    background-color: var(--black);
+    border: var(--black) solid 3px;
+    margin: 10px;
+    height: auto; 
+} */
+
+.who__cards__card {
+    display: flex;
+    border-radius: 5px;
+    background-color: var(--black);
+    border: var(--black) solid 3px;
+    margin: 10px;
+
+    flex-direction: column;
+    width: 240px;
+    height: 450px;
+}
+
+.who__cards__card__name, .who__cards__card__description {
+    margin: 10px;
+    color: #fff;
+}
+
+.who__cards__card__name {
+    text-align: center;
+}
+
+.who__cards__card__description {
+    text-align: justify;
+}
+
+.who__cards__card__image {
+    background-color: #fff;
+    height: 30%;
+    width: auto;
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+.who__cards__card__name {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: start;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.who__cards__card__description {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
