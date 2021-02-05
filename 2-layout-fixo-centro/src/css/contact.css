@@ -87,7 +87,6 @@
 .contact__form__name, .contact__form__email, .contact__form__message {
     display: grid;
     place-items: center;
-
     position: relative;
     width: 200px;
     height: 30px;
