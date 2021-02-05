@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./src/css/main.css">
     <link rel="stylesheet" href="./src/css/common.css">
     <link rel="stylesheet" href="./src/css/contact.css">
-    <link rel="stylesheet" href="./src/css/responsivo-main.css">
-    <link rel="stylesheet" href="./src/css/responsivo-pages.css">
+    <link rel="stylesheet" href="./src/css/responsive-main.css">
+    <link rel="stylesheet" href="./src/css/responsive-pages.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <!--Fonte padrão-->
@@ -24,19 +24,18 @@
     <div class="container">
         <!-- Cabeçalho -->
         <header class="header">
-            <!-- <img src="./src/imgs/sushi_creditas.png" alt="Logo cabeçalho" class="header__logo"> -->
-            <h1 class="header__logo">C<span style="color:#D90404">S</span></h1>
-            <h1 class="header__title">Creditu<span style="color:#D90404">Shi</span></h1>
+            <h1 class="header__logo">C<span class="header__red">S</span></h1>
+            <h1 class="header__title">Creditu<span class="header__red">Shi</span></h1>
         </header>
 
         <!-- Menu de navegação -->
         <nav class="navbar">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/who.html">Quem somos</a></li>
-                <li><a href="/sushi.html">Sushi</a></li>
-                <li><a href="/sushi-premium.html">Sushi Premium</a></li>
-                <li class="active"><a class="link" href="/contact.html">Contato</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./who.html">Quem somos</a></li>
+                <li><a href="./sushi.html">Sushi</a></li>
+                <li><a href="./sushi-premium.html">Sushi Premium</a></li>
+                <li class="active"><a class="link" href="./contact.html">Contato</a></li>
             </ul>
         </nav>
 
@@ -45,10 +44,10 @@
             <main class="contact__main">
                 <h2 class="contact__main__title">Contato</h2>
                 <ul>
-                    <li><span style="font-weight:bold; color:#000">Endereço:</span> Rua São Paulo, nº 215, Vitória, Espírito Santo</li>
-                    <li><span style="font-weight:bold; color:#000">E-mail:</span> email@creditushi.com</li>
-                    <li><span style="font-weight:bold; color:#000">Telefone:</span> (33) 3333.3333</li>
-                    <li><span style="font-weight:bold; color:#000">Whatsapp:</span> (99) 9 9999.9999</li>
+                    <li><span class="contact__main__bold">Endereço:</span> Rua São Paulo, nº 215, Vitória, Espírito Santo</li>
+                    <li><span class="contact__main__bold">E-mail:</span> email@creditushi.com</li>
+                    <li><span class="contact__main__bold">Telefone:</span> (33) 3333.3333</li>
+                    <li><span class="contact__main__bold">Whatsapp:</span> (99) 9 9999.9999</li>
                 </ul>
                 <br>
                 <br>
@@ -60,25 +59,25 @@
             </main>
             
             <!-- Formulário -->
-            <form class="content__form" autocomplete="off">
-                <h4 class="content__form__title">Entre em contato</h4>
+            <form class="contact__form" autocomplete="off">
+                <h4 class="contact__form__title">Fale conosco</h4>
 
-                <div class="content__form__name">
-                    <input id="content__form__name" type="text" required>
-                    <label for="content__form__name">Nome</label>
+                <div class="contact__form__name">
+                    <input id="contact__form__name" type="text" required>
+                    <label for="contact__form__name">Nome</label>
                 </div>
                 
-                <div class="content__form__email">
-                    <input id="content__form__email" type="text" required>
-                    <label for="content__form__email">E-mail</label>
+                <div class="contact__form__email">
+                    <input id="contact__form__email" type="text" required>
+                    <label for="contact__form__email">E-mail</label>
                 </div>
 
-                <div class="content__form__message">
-                    <textarea id="content__form__message" required></textarea>
-                    <label for="content__form__message">Mensagem</label>
+                <div class="contact__form__message">
+                    <textarea id="contact__form__message" required></textarea>
+                    <label for="contact__form__message">Mensagem</label>
                 </div>
 
-                <button class="content__form__button">Enviar</button>
+                <button class="contact__form__button">Enviar</button>
             </form>
         </div>
 

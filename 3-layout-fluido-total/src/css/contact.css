@@ -15,14 +15,11 @@
     height: 100%;
     display: flex;
     justify-content: space-evenly;
-    /* align-items: flex-start; */
     padding: 20px 0;
 }
 
 /* Principal */
 .contact__main {
-    /* border-right: thin solid var(--black); */
-    /* padding: 0 30px; */
     width: 80%;
     height: 100%;
     display: flex;
@@ -38,23 +35,21 @@
 }
 
 .contact__main__title {
-    /* font-size: 50px; */
     color: var(--black);
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.contact__main ul {
-    align-self: flex-start;
-}
+.contact__main ul { align-self: flex-start; }
 
-.contact__main ul li {
+.contact__main ul li, .contact__main__bold {
     color: var(--black);
-    /* font-size: 14px; */
     margin-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.contact__main__bold { font-weight: bold; }
 
 /* Mapa */
 .contact__main__map {
@@ -71,9 +66,8 @@
 }
 
 /* Formulário */
-.content__form {
+.contact__form {
     width: 70%;
-    /* font-size: 40px; */
     color: var(--black);
     display: flex;
     flex-direction: column;
@@ -81,29 +75,26 @@
     align-items: center;
 }
 
-.content__form__title {
+.contact__form__title {
     color: var(--black);
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.content__form__name, .content__form__email, .content__form__message {
+.contact__form__name, .contact__form__email, .contact__form__message {
     display: grid;
     place-items: center;
-
     position: relative;
     width: 100%;
     height: 30px;
     margin-bottom: 30px;
 }
 
-.content__form__message {
-    height: 70px;
-}
+.contact__form__message { height: 70px; }
 
-.content__form input, .content__form textarea {
+.contact__form input, .contact__form textarea {
     border: 1px solid var(--black);
     width: 90%;
     height: 40px;
@@ -115,12 +106,12 @@
     color: var(--black);
 }
 
-.content__form textarea {
+.contact__form textarea {
     height: 80px;
     padding: 16px 16px;
 }
 
-.content__form label {
+.contact__form label {
     color: var(--black);
     z-index: 10;
     position: absolute;
@@ -133,28 +124,26 @@
     transition: .2s;
 }
 
-.content__form textarea + label {
-    font-size: 18px;
-}
+.contact__form textarea + label { font-size: 18px; }
 
-.content__form input:focus,
-.content__form textarea:focus,
-.content__form input:valid,
-.content__form textarea:valid {
+.contact__form input:focus,
+.contact__form textarea:focus,
+.contact__form input:valid,
+.contact__form textarea:valid {
     border: 1px solid var(--red);
 }
 
-.content__form input:focus + label,
-.content__form textarea:focus + label,
-.content__form input:valid + label,
-.content__form textarea:valid + label {
+.contact__form input:focus + label,
+.contact__form textarea:focus + label,
+.contact__form input:valid + label,
+.contact__form textarea:valid + label {
     top: -18px;
     font-size: 15px;
     color: var(--red);
 }
 
 /* Botão */
-.content__form__button {
+.contact__form__button {
     cursor: pointer;
     border: none;
     width: 90%;
@@ -169,7 +158,7 @@
     font-size: 25px;
 }
 
-.content__form__button:hover {
+.contact__form__button:hover {
     background-color: var(--red);
     transition: .5s;
 }

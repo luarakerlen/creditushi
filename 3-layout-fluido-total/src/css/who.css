@@ -9,7 +9,6 @@
 }
 
 .who__title {
-    /* font-size: 55px; */
     text-align: center;
     margin: 20px;
     margin-bottom: 0;
@@ -20,7 +19,6 @@
 
 .who__description {
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 15px; */
     margin: 20px;
     margin-bottom: 0;
     color: var(--black);
@@ -34,10 +32,7 @@
     align-items: center;
     justify-content: center;
 }
-.who__image {
-    /* height: 250px; */
-    max-width: 100%;
-}
+.who__image { max-width: 100%; }
 
 .who__image1, .who__image4 {
     margin: 10px;
@@ -61,22 +56,12 @@
     gap: 10px;
 }
 
-/* .who__cards__card {
-    display: flex;
-    border-radius: 5px;
-    background-color: var(--black);
-    border: var(--black) solid 3px;
-    margin: 10px;
-    height: auto; 
-} */
-
 .who__cards__card {
     display: flex;
     border-radius: 5px;
     background-color: var(--black);
     border: var(--black) solid 3px;
     margin: 10px;
-
     flex-direction: column;
     width: 240px;
     height: 450px;
@@ -85,14 +70,7 @@
 .who__cards__card__name, .who__cards__card__description {
     margin: 10px;
     color: #fff;
-}
-
-.who__cards__card__name {
     text-align: center;
-}
-
-.who__cards__card__description {
-    text-align: justify;
 }
 
 .who__cards__card__image {
@@ -106,7 +84,6 @@
 .who__cards__card__name {
     font-weight: bold;
     font-size: 35px;
-    text-align: start;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
